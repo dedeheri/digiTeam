@@ -14,4 +14,4 @@
 
 3. Token
    Masukan token yang sudah didapatkan dalam keluaran api di bagian login, contoh : http://localhost:1234/v1/auth/token?exp=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImRlZGVoZXJpIiwiaWF0IjoxNjUyMTIwMjUzLCJleHAiOjE2NTIxMjAzMTN9.k8nRUmfSQSLqYLUqMNY7tCYorXdhwWUyPJDs-7Go0tY.
-   Jika validasi token berhasil, api akan menggeluarkan pesan is_valid : true, username, expired_at, dalam kasus ini, token (JWT) di atur dalam waktu 5 menit dan jika token keduarsa, api akan menggeluarkan pesan is_valid : false
+   Jika validasi token berhasil, api akan menggeluarkan pesan is_valid : true, username, expired_at, dalam kasus ini, token (JWT) di atur dalam waktu 5 menit dan jika token keduarsa, api akan menggeluarkan pesan is_valid : false dan jika query tidak dimasukan api akan menggeluarkan pesan is_valid : false
