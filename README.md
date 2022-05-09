@@ -1,10 +1,10 @@
-<!-- endpoint -->
+// endpoint
 
     1.http://localhost:1234/v1/auth/registration
     2.http://localhost:1234/v1/auth/login
     3.http://localhost:1234/v1/auth/token?exp={token}
 
-<!--Alur  -->
+// Alur
 
 1. Registrasi
    Buat akun dengan username tanpa sepasi, jika username menggandung spasi, api akan menggeluarkan pesan "username tidak boleh mengandung spasi", jika username sudah terdaftar api akan menggeluarkan pesan "Username sudah terdaftar". Role diatur dalam String contoh : pengguna, admin. Jika body json kosong (username, role) api akan menggeluarkan pesan "Username tidak boleh kosong" dan "role tidak boleh kosong".
